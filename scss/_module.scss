@@ -4,3 +4,16 @@ Module Rules
     When defining the rule set for a module, avoid using IDs and element selectors, sticking only to class names. A module will likely contain a number of elements and there is likely to be a desire to use descendent or child selectors to target those elements. 
 */
 
+.toggle-button {
+	animation: colorchange-font 5s linear 1s infinite alternate;
+	background-color: $color;
+	color: $background-color;
+	display: inline-block;
+	@include headline-font;
+	padding: 0 4px;
+	text-decoration: none;
+}
+
+nav[role="navigation"] {
+	list-style-type: none;
+}
