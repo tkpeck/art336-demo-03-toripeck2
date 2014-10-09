@@ -25,7 +25,7 @@ $(function() {
 
 // initialize bigtext.js
 // Remove /* and */ to initiate the plugin
-/* $(function() {
+$(function() {
     WebFont.load({
         custom: {
             families: ['cubano'], // font-family name
@@ -38,7 +38,7 @@ $(function() {
             $('#webapps-headline').bigtext();
         }
     });
-}); */
+});
 
 
 // initialize Menu Button Expand/Collapse
@@ -49,7 +49,6 @@ $(document).ready(function(){
         $(".toggle-button").next("ul").slideToggle();
     });
 });
-
 
 // initialize responsiveslides.js
 // Remove /* and */ to initiate the plugin

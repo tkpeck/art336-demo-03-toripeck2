@@ -4,21 +4,21 @@ Base Rules
 */
 
 html {
-	animation: colorchange-background 5s linear 1s infinite alternate;
-	background-color: $background-color;
+    animation: colorchange-background 5s linear 1s infinite alternate;
+    background-color: $background-color;
 }
 
 body {
-	color: $color;
-	box-sizing: border-box;
-	@include body-font-regular;
-	@include fontSize(20px);
-	padding: 0 8px;
-	margin: 0 auto;
-	max-width: 500px;
-	width: 100%;
+    color: $color;
+    box-sizing: border-box;
+    @include body-font-regular;
+    @include fontSize(20px);
+    padding: 0 8px;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
 }
 
 h1, h2 {
-	@include headline-font;
+    @include headline-font;
 }
