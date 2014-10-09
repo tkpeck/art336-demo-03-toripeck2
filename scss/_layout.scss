@@ -8,12 +8,17 @@ nav[role="navigation"] {
     text-align: right;
 }
 
-nav[role="navigation"] ul {
-    margin: 12px 0 0 0;
+nav[role="navigation"] ul, .contact ul {
+	list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 
-nav[role="navigation"] ul li {
+nav[role="navigation"] ul {
+    margin: 12px 0 0 0;
+}
+
+nav[role="navigation"] ul li, .contact ul li {
     display: inline-block;
     margin: 0;
     padding: 0;
@@ -26,3 +31,4 @@ header[role="banner"] {
 .banner-photo {
     text-align: center;
 }
+

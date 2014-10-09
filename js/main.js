@@ -34,7 +34,7 @@ $(function() {
         active: function() {
             $('#banner-headline').bigtext();
             $('#identity-headline').bigtext();
-            $('#typograpy-headline').bigtext();
+            $('#typography-headline').bigtext();
             $('#webapps-headline').bigtext();
         }
     });

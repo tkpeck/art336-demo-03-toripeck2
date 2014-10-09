@@ -70,3 +70,24 @@ header[role="banner"] a:hover {
     transition: color 400ms linear;
 }
 
+.contact svg {
+	width: 24px;
+	height: 24px;
+}
+
+.contact svg path {
+	fill: $background-color;
+	transition: fill 400ms linear;
+}
+
+.contact a:hover svg path {
+	fill: darken($background-color, 12%);
+	transition: fill 400ms linear;
+}
+
+main[role="main"] h1 {
+	background-color: $color;
+	color: $background-color;
+	animation: colorchange-font 5s linear 1s infinite alternate;
+	padding: 0 8px;
+}
