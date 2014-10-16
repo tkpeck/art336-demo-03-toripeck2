@@ -45,6 +45,11 @@ $background-color-alternate: #d8c0ff;
     font-weight: 400;
 }
 
+@mixin reversed-text {
+	background-color: $color;
+	color: $background-color;
+}
+
 @keyframes colorchange-background {
     0% { background-color: $background-color; }
     50% { background-color: $background-color-alternate; }
